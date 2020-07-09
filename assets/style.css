@@ -17,7 +17,7 @@ header{
 
 .sea{
     display: flex;
-    width: 35%;
+    width: 45%;
     padding: 0px 200px 0px 200px ;
     
 }
@@ -37,8 +37,8 @@ header{
     
 
 #mainlogo{
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 24px;
     padding: 0px;
     padding-left: 50px;
 }
@@ -75,19 +75,14 @@ main{
     margin-left: 100px;
 }
 
-/*#youtube{
-    
-}*/
+
 .user{
     width: 35px;
     height: 35px;
     border-radius: 50%;
     
 }
-#subscribe{
-    background-color: red;
-    color: white;
-}
+
 
 #stats{
     display: flex;
@@ -106,6 +101,8 @@ main{
     margin-left: 10px;
 }
 #subscribe{
+    background-color: red;
+    color: white;
     padding: 10px;
     font-size: 15px;
 }
