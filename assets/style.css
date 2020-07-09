@@ -1,0 +1,140 @@
+body{
+    background-color: #f5f5f5;
+}
+header{
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px;/*20px;*/
+    z-index: 7;
+    justify-content: space-between;
+    
+}
+
+.sea{
+    display: flex;
+    width: 35%;/*80%;*/
+    padding: 0px 200px 0px 200px ;
+    
+}
+.sea button{
+    border: 1px solid grey;
+}
+.icons{
+    display: flex;
+    padding: 5px;/*20px;*/
+    margin-right: 35px;
+}
+
+.ib{
+    width:30px;
+    padding: 10px;
+}
+    
+
+#mainlogo{
+    width: 140px;
+    height: 70px;
+    padding: 0px;/*20px;*/
+    padding-left: 5px;
+}
+
+#bell{
+    width: 15px;
+    height: 15px;
+}
+#application{
+    width: 15px;
+    height: 15px;
+}
+#create{
+    width: 15px;
+    height: 15px;
+}
+
+aside{
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    width: 30%;
+    
+}
+.search{
+    width: 100%;
+    height: 30px;
+}
+
+main{
+    position: absolute;
+    top: 80px;
+    width: 50%;
+    margin-left: 100px;
+}
+
+/*#youtube{
+    
+}*/
+.user{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+#subscribe{
+    background-color: red;
+    color: white;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-between;
+}
+#comment{
+    display: flex;
+    align-items: center;
+}
+#comment-subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#avatar-info{
+    margin-left: 10px;
+}
+#subscribe{
+    padding: 10px;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+    border-radius: 0%;
+    border: none;
+}
+
+#g1-2{
+    display: flex;
+}
+
+.video-img{
+    float: left;
+    padding-right: 10px;
+}
+
+.video-img, h3{
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+.video-img, p{
+    color: grey;
+    font-size: 0.9em;
+}
+
+hr.hori {
+    border-top: 1px solid #d3d3d3;
+  }
